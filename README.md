@@ -10,3 +10,7 @@ My goals:
 
 
 Hopefully it works out. I know Python and have exprience with HTML, CSS, and Javascript, but I'm looking to do more. 
+
+
+Days and Projects 
+- 1 S-Figure with html and css
