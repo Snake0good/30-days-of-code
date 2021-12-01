@@ -13,4 +13,4 @@ Hopefully it works out. I know Python and have exprience with HTML, CSS, and Jav
 
 
 Days and Projects 
-- 1. S-Figure with html and css
+- Day 1: S-Figure with html and css
