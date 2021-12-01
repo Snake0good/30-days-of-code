@@ -1,0 +1,95 @@
+body {
+    background-color: lightblue;
+}
+.s {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.topline1, .topline2, .topline3 {
+    width: 15px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    top: -250px;
+}
+.topline2, .bottomline2 {
+    left: -100px;
+    border-radius: 0% 0% 0% 0%;
+}
+.topline3, .bottomline3 {
+    left: 100px;
+}
+.bottomline1, .bottomline2, .bottomline3 {
+    width: 15px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    top: 38px;
+}
+
+.mid1, .mid2 {
+    width: 15px;
+    height: 143px;
+    background: black;
+    position: absolute;
+    transform: rotate(-46deg);
+    top: -78px;
+}
+.mid1 {
+    left: -50px
+}
+.mid2 {
+    left: 50px
+}
+
+
+.mid3, .mid4 {
+    width: 15px;
+    height: 70px;
+    background: black;
+    position: absolute;
+    transform: rotate(45deg);
+}
+.mid3 {
+    top: -15px;
+    left: -78px
+}
+.mid4 {
+    top: -66px;
+    left: 78px;
+}
+
+.conetop1, .conetop2 {
+    width: 15px;
+    height: 150px;
+    background: black;
+    position: absolute;
+    top: -372px;
+}
+.conetop1 {
+    left: -49px;
+    transform: rotate(45deg);
+}
+.conetop2 {
+    left: 49px;
+    transform: rotate(-45deg);
+}
+
+.conebot1, .conebot2 {
+    width: 15px;
+    height: 150px;
+    background: black;
+    position: absolute;
+    top: 212px;
+}
+.conebot1 {
+    left: -49px;
+    transform: rotate(-45deg);
+}
+.conebot2 {
+    left: 49px;
+    transform: rotate(45deg);
+}
