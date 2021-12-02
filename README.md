@@ -7,6 +7,7 @@ My goals:
 - start small
 - build bigger
 - get my Javascript up to snuff
+- - on day 2, I only have 7.3% JavaScript. I want that up much higher on day 30. Let's shoot for 30%
 
 
 Hopefully it works out. I know Python and have exprience with HTML, CSS, and Javascript, but I'm looking to do more. 
