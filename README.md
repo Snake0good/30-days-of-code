@@ -14,3 +14,4 @@ Hopefully it works out. I know Python and have exprience with HTML, CSS, and Jav
 
 Days and Projects 
 - Day 1: S-Figure with html and css
+- Day 2: Click Counter (html, css, javascript)
