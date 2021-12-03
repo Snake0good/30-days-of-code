@@ -10,9 +10,10 @@ My goals:
   - on day 2, I only have 7.3% JavaScript. I want that up much higher on day 30... let's shoot for 30%
 
 
-Hopefully it works out. I know Python and have exprience with HTML, CSS, and Javascript, but I'm looking to do more. 
+Hopefully it works out. I know Python and have exprience with HTML, CSS, and Javascript, but I'm looking to do more. This is my step towards web development and web design. I actually started this process in 2001 (sophomnore year!) but gave it up because I.... don't know why :( I wish my computer science teacher (aka computer class) would've known more than she did and inspired us.
 
 
 Days and Projects 
 - Day 1: S-Figure with html and css
 - Day 2: Click Counter (html, css, javascript)
+- Day 3: Stopwatch
