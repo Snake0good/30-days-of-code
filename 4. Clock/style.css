@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+body {
+    padding-top: 100px;
+    background-color: rgb(255, 200, 100);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    font-size: 40px;
+    margin: auto;
+    padding-top: 15px;
+    color:rgb(62, 255, 197)
+}
+
+p {
+    font-family: 'VT323', monospace;
+    padding: 2px;
+    font-size: 5rem;
+    margin: 1px;
+    color: rgb(255, 0, 0);
+    background-color:rgba(255, 0, 0, .1);
+    width: max-content;
+    margin: auto;
+}
+
+.clocks {
+    width: 500px;
+    height: 150px;
+    background: rgb(25, 25, 26);
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+}
+
+.dot1, .dot2 {
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 0, 0, .8);
+    border-radius: 50%; 
+    position: absolute;
+    left: 25px; 
+}
+.dot1 {
+    top: 50px
+}
+.dot2 {
+    top: 100px;
+}
+
+.snooze {
+    width: 100px;
+    height: 10px;
+    background: rgb(25, 25, 26);
+    border-radius: 6px; 
+    position: absolute;
+    top: -6px;
+    left: 40px
+}
+
+.button1, .button2 {
+    width: 50px;
+    height: 10px;
+    background: rgb(25, 25, 26);
+    border-radius: 6px; 
+    position: absolute;
+    top: -6px;
+}
+.button1 {
+    left: 320px;
+}
+.button2 {
+    left: 400px;
+}
