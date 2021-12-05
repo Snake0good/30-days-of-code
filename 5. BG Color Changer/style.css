@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: aqua;
+    padding-top: 150px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+    margin: 5px; 
+}
+
+#red {
+    background: red;
+}
+#orange {
+    background: orange;
+}
+#yellow {
+    background: yellow;
+}
+#green {
+    background: green;
+}
+#blue {
+    background: blue;
+    color: white;
+}
+#indigo {
+    background: indigo;
+    color: white;
+}
+#violet {
+    background: violet;
+}
+
