@@ -19,3 +19,4 @@ Days and Projects
 - Day 3: Stopwatch
 - Day 4: Clock
 - Day 5: Background Color Changer
+- Day 6: Blog Posting
