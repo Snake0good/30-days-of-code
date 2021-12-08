@@ -24,3 +24,5 @@ Days and Projects
 - Day 4: Clock
 - Day 5: Background Color Changer
 - Day 6: Blog Posting
+- Day 7: Calculator
+- Day 8: Quote Generator
