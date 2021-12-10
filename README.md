@@ -12,8 +12,8 @@ My goals:
 
 Hopefully it works out. I know Python and have exprience with HTML, CSS, and Javascript, but I'm looking to do more. This is my step towards web development and web design. I actually started this process in 2001 (sophomnore year!) but gave it up because I.... don't know why :( I wish my computer science teacher (aka computer class) would've known more than she did and inspired us.
 
-Completet 20% and here is the breakdown. I'm on pace I think. 
-- 45% CSS, 34% HTML, 21% JS
+- Day 6 -> 45% CSS, 34% HTML, 21% JS
+- Day 10 -> 36% CSS, 34% JS, 30% HTML
 
 
 
