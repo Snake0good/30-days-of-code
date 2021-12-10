@@ -26,3 +26,5 @@ Days and Projects
 - Day 6: Blog Posting
 - Day 7: Calculator
 - Day 8: Quote Generator
+- Day 9: Word Counter
+- Day 10: To Do List
