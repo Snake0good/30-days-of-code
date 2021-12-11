@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier';
+    background-image: linear-gradient(315deg, lightgreen 0%, green 100%);
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    background: whitesmoke;
+    min-width: 375px;
+    max-width: 75%;
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    border-radius: 20px;;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 1);
+}
+
+button {
+    font-family: 'Courier';
+    border: none;
+    background: rgba(0, 157, 44, 0.3);
+    margin: 15px;
+    padding: 5px;
+    border-radius: 2px;
+    border: solid black 1px;
+    box-shadow: 0 0 1px 1px black;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.bmi {
+    font-size: 2rem;
+}
