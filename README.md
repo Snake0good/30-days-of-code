@@ -28,3 +28,5 @@ Days and Projects
 - Day 8: Quote Generator
 - Day 9: Word Counter
 - Day 10: To Do List
+- Day 11: BMI Calculator
+- Day 12: Background Image Slider
