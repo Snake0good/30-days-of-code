@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    z-index: -1;
+    background: #1b1b32;
+    background-image: linear-gradient(
+        115deg,
+        rgba(0, 0, 0, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url("/images/car_work.jpg");
+    font-family: 'Arial';
+    background-size: cover;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {    
+    background: rgb(255, 255, 255, 0.7);
+    margin: auto;
+    border: solid 2px whitesmoke;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: 75%;
+    box-shadow: 0 0 2px 1px rgb(188, 255, 166);
+}
+
+p {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+#customer_pic {
+    content: url(/images/man.jpg);
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+}
+
+
+h1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 5px rgb(188, 255, 166);
+    font-size: 2rem;
+    top: -100px;
+}
+
+#client {
+    padding-top: 50px;
+}
+
+
+
+button {
+    position: absolute;
+    width: 40px;
+    height: 50px;
+    top: 40%;
+    background: linen;
+    border-radius: 5px;
+    border:solid 4px rgb(0, 0, 50);
+    font-size: 25px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: paleturquoise;
+}
+
+.left {
+    left: -20px;
+}
+
+.right {
+    right: -20px;
+}
