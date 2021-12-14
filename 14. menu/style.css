@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+body::after {
+    content: "";
+    background: url('images/restaurant.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+#wrapper {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    min-height: 100vh;
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    border: 2px solid rgb(70, 0, 0);
+    border-radius: 10px;
+}
+
+.main, .drink, .appetizers {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    margin: 2px;
+    height: 325px;
+    width: 225px;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+h1 {
+    color: black;
+    font-size: 50px;
+    font-family: 'Gill Sans';
+    width: fit-content;
+    margin: auto; 
+    margin-top: 50px;  
+    margin-bottom: 20px;
+}
+
+h2{ 
+    text-align: center;
+}
+
+p {
+    width: fit-content;
+    padding: 8px;
+}
+
+#stars {
+    color: rgb(130, 120, 11);
+}
