@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg></script>
+    <script src='script.js' defer></script>
+    <title>Our Menu</title>
+</head>
+<body>
+    <div id='wrapper'>
+        <h1>Restaurant Menu</h1>
+        <div class='buttons'>
+            <button id='all' onclick="getAll()">All</button>
+            <button id='apps' onclick="getApps()">Appetizers</button>
+            <button id='maindish' onclick="getMains()">Main Dishes</button>
+            <button id='drinks' onclick="getDrinks()">Drinks</button>
+        </div>
+        <div id='content'>
+            <div class='main'>
+                <img src='images/spaghetti.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i>(23)</i>
+                </div>
+                <h2 id='dishName'>Spaghetti</h2>
+                <p id='description'>These weeknight noodles are inspired by the silky richness of meaty tomato sauce and the fiery, tangy-sweet flavors of pad kee mao.</p>
+            </div>
+
+            <div class='appetizers'>
+                <img src='images/vegan_sweetpotato_curry.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i>(15)</i>
+
+                </div>
+                <h2 id='dishName'>Sweet Potato Curry</h2>
+                <p id='description'>This tasty vegan curry for an exotic yet easy family dinner. With spinach and sweet potato, it boasts two of your five-a-day and it’s under 400 calories</p>
+            </div>
+            
+            <div class='main'>
+                <img src='images/baked_pasta.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <i>(3)</i>
+                </div>
+                <h2 id='dishName'>Baked Feta Pasta</h2>
+                <p id='description'>Sometimes things go viral because they're really, really delicious.It's full-on explosive flavor in under an hour. Yummy, yummy, yummy</p>
+            </div>
+            
+            <div class='drink'>
+                <img src='images/mojito.webp'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i>(92)</i>
+                </div>
+                <h2 id='dishName'>Mojitos</h2>
+                <p id='description'>Serve these fan-favourite cocktails at your next party. See our best ever classic cocktails, including cosmopolitans, old fashioneds and mojitos.</p>
+            </div>
+
+            <div class='main'>
+                <img src='images/chicken_gnocchi.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i>(15)</i>
+                </div>
+                <h2 id='dishName'>Chicken Gnocchi</h2>
+                <p id='description'>When everything cooks together everyone wins. Really delicious. It's full-on explosive flavor in under an hour. Great stuff</p>
+            </div>
+
+            <div class='drink'>
+                <img src='images/moscow_mule.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i>(18)</i>
+                </div>
+                <h2 id='dishName'>Moscow Mule</h2>
+                <p id='description'>This is a vodka version of a dark and stormy. This is a vodka version of a dark and stormy.
+                </p>
+            </div>
+
+            <div class='appetizers' >
+                <img src='images/cream_cheese_penguins.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+
+                    <i>(13)</i>
+                </div>
+                <h2 id='dishName'>Cream Cheese Penguins</h2>
+                <p id='description'>Cute display of penguins, made with black olives, carrots and cream cheese! Add scarves and hats by using fresh red pepper strips.
+                </p>
+            </div>
+
+            <div class='drink'>
+                <img src='images/hot_cocoa.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i>(43)</i>
+                </div>
+                <h2 id='dishName'>Hot Cocoa</h2>
+                <p id='description'>I was messing around in my kitchen one day and was craving hot cocoa. Since I only had dark chocolate on hand. Add cinnamon. Serve hot.
+                </p>
+            </div>
+
+            <div class='drink'>
+                <img src='images/calypso_coffee.jpeg'>
+                <div id='stars'>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i>(25)</i>
+                </div>
+                <h2 id='dishName'>Calypso Coffee</h2>
+                <p id='description'>This coffee drink is one of my favorites. It has a light chocolate taste and is perfect for a cold winter day.
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+     
+    
+</body>
+</html>
