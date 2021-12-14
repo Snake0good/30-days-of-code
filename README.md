@@ -30,3 +30,5 @@ Days and Projects
 - Day 10: To Do List
 - Day 11: BMI Calculator
 - Day 12: Background Image Slider
+- Day 13: Client Testimonials
+- Day 14: Menu
