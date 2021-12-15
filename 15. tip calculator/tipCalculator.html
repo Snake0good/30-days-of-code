@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <div class='container'>
+        <h1>Tip Calculator</h1>
+        
+        <label for='bill-amount'>How much was your bill?</label> <br>
+        <span>$</span><input type='number' id='bill-amount' min=1 max=1000000>
+
+        <br>
+        <label for='people'>How many people will be sharing the bill?</label> <br>
+        <input name='people' type='number' id='people' min=1 max=100>
+
+        <br>
+        <label for='service'>How was your service?</label> <br>
+        <select name='service' id='service' required>
+            <option value="choose">Choose...</option>
+            <option value="great">Great 20%</option>
+            <option value="good">Good 15%</option>
+            <option value="bad">Bad 10%</option>
+        </select>
+
+        <br>
+        <button id='calculate' onclick="calculate()">Calculate</button>
+        <p id='20'>20% Tip is: $<span id='tip20'>...</span></p>
+        <p id='15'>15% Tip is: $<span id='tip15'>...</span></p>
+        <p id='10'>10% Tip is: $<span id='tip10'>...</span></p>
+    </div>
+    
+</body>
+</html>
