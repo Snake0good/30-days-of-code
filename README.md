@@ -32,3 +32,5 @@ Days and Projects
 - Day 12: Background Image Slider
 - Day 13: Client Testimonials
 - Day 14: Menu
+- Day 15: Tip Calculator
+- 
