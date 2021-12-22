@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+    <title>Salary Input App</title>
+</head>
+<body>
+    <div class='container'>
+
+        <table id='newTable'> 
+            <tbody>
+                <tr> 
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>Delete</th>
+                </tr>
+                <tr> 
+                    <td>John Smith</td>
+                    <td>Marketing</td>
+                    <td>65000</td>
+                    <td>Delete</td>
+                </tr>
+                <tr id='trial'>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <label>Name</label> <input type="textbox" id='name'> </br>
+        <label>Department</label> 
+        <select id='dept'>
+            <option value=''>--Choose--</option> 
+            <option value="Marketing">Marketing</option> 
+            <option value="Human Resources">Human Resources</option> 
+            <option value="Sales">Sales</option> 
+            <option value="Administration">Administration</option>
+        </select> </br>
+        <label>Salary</label> <input type="textbox" id='salary'> </br>
+        <button onclick="addPerson()">Add</button>
+    </div>
+
+</body>
+</html>
