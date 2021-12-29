@@ -34,3 +34,5 @@ Days and Projects
 - Day 14: Menu
 - Day 15: Tip Calculator
 - Day 16: Grocery List
+- Day 17: Salary Input
+- Day 18: Drawing App
