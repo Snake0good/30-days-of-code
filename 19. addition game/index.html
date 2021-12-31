@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' defer></script>
+    <title>Addition Game App</title>
+</head>
+<body>
+    
+    <div class='container'>
+        <div class='top'>
+            <h1>Previous Answer: </h1>
+            <h1 id='header'>n/a</h1>
+            <h1 class='score'>Score:<span class='score' id='score'>0</span></h1>
+        </div>
+
+        <div class='bottom'>
+            <div class='num' id="fnum">5</div> 
+            <p class='operator'>x</p>
+            <div class='num' id="snum">7</div>
+            <p class='operator'>=</p>
+            <input type='textbox' id='answer'>
+            <button onclick="check()">Check</button>
+        </div>
+    </div>
+</body>
+</html>
