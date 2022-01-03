@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Coin Toss</title>
+</head>
+<body>
+    <div class="container">
+        <h1>First Player to 5 Points Wins!</h1>
+        <div class="players">
+            <p class ="text" id="player">Player Selected: <span id="play_selection"></span></p>
+            <p class ="text" id="computer">Computer Selected: <span id="comp_selection"></span></p>
+        </div>
+        
+        <div class="flip-coin">
+            <div class="flip-coin-inner">
+                <div class="flip-coin-front">
+                    <img src="heads.png" class="coin" alt="heads">
+                </div>
+                <div class="flip-coin-back">
+                    <img src="tails.png" class="coin" alt="tails">
+                </div>
+            </div>
+        </div>
+
+        <p id="">Last Result: <span id="result"></span></p>
+        
+        <div class="scores">
+            <p class ="text" id="player_score">Player: <span id="play_score">0</span></p>
+            <p class ="text" id="computer_score">Computer: <span id="comp_score">0</span></p>
+        </div>
+
+        <h2>Make a Selection</h2>
+        <div class="buttons">
+            <button id="heads" onclick="choseHeads()">Heads</button>
+            <button id="tails" onclick="choseTails()">Tails</button>
+        </div>
+        <button id="flip" onclick="flipCoin()">Flip Coin</button>
+    </div>
+    
+</body>
+</html>
